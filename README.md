@@ -102,8 +102,8 @@ Raw counts (2,700 cells × 32,738 genes)
 ### Option 1 — Conda (recommended)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/zeyneps13/pbmc-single-cell-analysis-.git
+cd pbmc_single_cell_analysis-
 conda env create -f environment.yml
 conda activate pbmc3k-scrna
 jupyter lab
@@ -112,8 +112,8 @@ jupyter lab
 ### Option 2 — pip
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/zeyneps13/pbmc-single-cell-analysis-.git
+cd pbmc_single_cell_analysis-
 pip install -r requirements.txt
 jupyter lab
 ```
